@@ -18,7 +18,7 @@
                 </svg>
               </div>
               <mat-grid-title >
-                <div>{{addedList.name}}&nbsp; &nbsp;{{addedList.time}}</div>
+                <div><a href={{addedList.link}} >{{addedList.name}}</a>&nbsp; &nbsp;<a style="color: rgb(48, 109, 150);">{{addedList.time}}</a></div>
                </mat-grid-title>
               <mat-grid-title>
                 <div  >  <mat-slider id={{addedList.id}} class="check"  thumbLabel tickInterval="5" min="0" max="30" step="5" value={{addedList.time}} (change)=onchange($event)></mat-slider></div>
@@ -36,7 +36,7 @@
     
       <div class="container">
         <div class= "twoheading" >
-            <h2 class="section-heading"> Main Plan &nbsp;&nbsp; Total :{{hours}} {{minutes}}</h2>
+            <h2 class="section-heading"> Main Plan &nbsp;&nbsp; Total :  {{hours}} {{minutes}}</h2>
            </div>
          <div cdkDropList #doneList="cdkDropList" [cdkDropListData]="DropList"
            [cdkDropListConnectedTo]="[addedList]" class="item-list"   (cdkDropListDropped)="onDrop($event)" (cdkDropListDropped)="count()" >

@@ -12,16 +12,16 @@ export class AppComponent {
 
   // Transfer Items Between Lists
   AddedList = [
-    {"id":1 ,"name":"Agility", "time":5},  
-    {"id":2 ,"name":"Skill Practice", "time": 5},
-    {"id":3 ,"name":"Injury Rehab", "time": 5},
-    {"id":4 ,"name":"Lower Body", "time":5},
-    {"id":5 ,"name":"Upper Body", "time":5},
-    {"id":6 ,"name":"Education", "time":5},
-    {"id":7 ,"name":"Reflexes", "time":5}, 
-    {"id":8 ,"name":"Mental", "time":5}, 
-    {"id":9 ,"name":"Cardio", "time":5}, 
-    {"id":10 ,"name":"Survey", "time":5},  
+    {"id":1 ,"name":"Agility", "time":5, "link":"https://en.wikipedia.org/wiki/Agility#:~:text=Agility%20or%20nimbleness%20is%20an,%2C%20reflexes%2C%20strength%20and%20endurance."},  
+    {"id":2 ,"name":"Skill Practice", "time": 5,"link":"https://en.wikipedia.org/wiki/Practice_(learning_method)"},
+    {"id":3 ,"name":"Injury Rehab", "time": 5,"link":"https://en.wikipedia.org/wiki/Rehabilitation"},
+    {"id":4 ,"name":"Lower Body", "time":5,"link":"https://en.wikipedia.org/w/index.php?title=Lower_Body&redirect=no"},
+    {"id":5 ,"name":"Upper Body", "time":5,"link":"https://en.wikipedia.org/w/index.php?title=Upper_body&redirect=no"},
+    {"id":6 ,"name":"Education", "time":5,"link":"https://en.wikipedia.org/wiki/Education"},
+    {"id":7 ,"name":"Reflexes", "time":5,"link":"https://en.wikipedia.org/wiki/Reflex"}, 
+    {"id":8 ,"name":"Mental", "time":5,"link":"https://en.wikipedia.org/wiki/Mental"}, 
+    {"id":9 ,"name":"Cardio", "time":5,"link":"https://en.wikipedia.org/wiki/Cardio"}, 
+    {"id":10 ,"name":"Survey", "time":5,"link":"https://en.wikipedia.org/wiki/Survey"},  
 
     
   ];
